@@ -1,0 +1,36 @@
+var questionEl = document.createElement("H1");
+
+var questionText = document.createTextNode("spurning 1");
+
+questionEl.setAttribute("id", "question");
+
+questionEl.appendChild(questionText);
+
+var svar = document.createElement("DIV");
+
+svar.setAttribute("id", "svar");
+
+
+var svar1 = document.createElement("DIV");
+
+svar1.setAttribute("class", "svar");
+
+var text1 = document.createTextNode("Svarmoguleiki 1");
+
+svar1.appendChild(text1);
+
+var svar2 = document.createElement("DIV");
+
+answer2.setAttribute("class", "svar");
+
+var text2 = document.createTextNode("Svarmoguleiki 2");
+
+svar2.appendChild(text2);
+
+
+
+document.body.appendChild(questionEl);
+document.body.appendChild(svar);
+
+document.getElementById("svar").appendChild(svar1);
+document.getElementById("svar").appendChild(svar2);
